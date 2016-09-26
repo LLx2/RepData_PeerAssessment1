@@ -22,7 +22,7 @@ library(markdown)
 ## Loading the Data
 *Set working directory & how any code tht is needed load data*
 ```{r}
-setwd("/Users/lonlieberman/Documents/R/Assignments/Data_Cleaning_Coursera/Week 4/Course Project 2/Reproducible Research/Knitr")
+setwd("/Reproducible Research/Knitr")
 activity <- read_csv('activity.csv', 
                      col_types = cols(date = "D", 
                                       steps = "i",
